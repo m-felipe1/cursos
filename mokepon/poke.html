@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    
+<body>
+    <section id="selecconar-mascota">
+    
+        <h1 class="titulo">Pokemon</h1>
+        <h2 class="subtitulo">Elige tu mascota</h2>
+
+        <div id="contenedorTarjetas" class="tarjetas">  
+
+        </div>
+             <button id="mascota">Seleccionar</button>
+     </section>
+
+     <section id="ver-mapa">
+        <h2 class="subtitulo">Recorre el mapa con tu pokemon</h2>
+        <canvas id="mapa"></canvas>
+        <button onmouseup="detenerMovimiento()" onmousedown="moverArriba()">Arriba</button>
+        <div>
+            <button onmouseup="detenerMovimiento()" onmousedown="moverIzquierda()">Izquierda</button>
+            <button onmouseup="detenerMovimiento()" onmousedown="moverAbajo()">Abajo</button>
+            <button onmouseup="detenerMovimiento()" onmousedown="moverDerecha()">Derecha</button>
+        </div>
+     </section>
+
+    <section id="seleccionar-ataque">
+        <h1 class="titulo">Pokemon</h1>
+
+        <h2 class="subtitulo">Elige tu ataque</h2>  
+
+        <div id="contenedorAtaques" class="tarjetas-ataques">
+          
+        </div>
+
+        
+            
+            
+            <div id='historial'>
+                <p id="resultado-juego">Mucha suerte</p>
+                    <section>
+                        <button id='reiniciar'>Reiniciar</button>
+                     </section>
+            </div>
+            
+        <div class="ataques">
+            <div class="ataque-de-jugador">
+                <P>VICTORIAS JUGADOR</P>
+                <p id="vidas-jugador">0</p>
+                <p id="mascota-jugador"><p>
+                <div id="ataque-jugador"></div>
+            </div>
+
+            <div class="ataque-de-enemigo">
+                <P>VICTORIAS ENEMIGO</P>
+                <p id="vidas-enemigo">0</p>
+                <p id="mascota-enemigo"><p>
+                <div id="ataque-enemigo"></div>
+            </div>
+           
+        </div>
+
+      </section>
+      <script src="js/poke.js"></script>
+</body>
+
+</html>

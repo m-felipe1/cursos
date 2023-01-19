@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: rgb(136, 88, 26);
+}
+
+body{
+    margin: 80px;
+}
+
+#selecconar-mascota h2{
+    color: rgb(32, 79, 79);
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarillo{
+    background-color: rgb(243, 235, 2);
+}
+
+.af{
+    background: rgb(0,35,224);
+    background: linear-gradient(90deg, rgba(0,35,224,1) 0%, rgba(245,242,10,1) 60%);   
+}
+
+#seleccionar-ataque button{
+    width: 80px;
+    border: solid 0px;
+    border-radius: 5px;
+}

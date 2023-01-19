@@ -1,0 +1,82 @@
+.container{
+    background-color: rgb(228, 158, 158);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgb(201, 193, 193);
+
+}
+
+h1{
+    color: rgb(255, 123, 0);
+}
+
+#op{
+    width: 40px;
+    height: 40px;
+    color: rgb(38, 38, 197);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: rgb(148, 148, 190);
+    border: transparent;
+    cursor: pointer;
+}
+
+input{
+    width: 170px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(179, 142, 209);
+    color: rgb(53, 9, 90);
+    font-size: 20px;
+    font-weight: 700;
+    border: transparent;
+
+}
+
+#calcular{
+    background-color: rgb(156, 202, 143);
+    width: 40px;
+    height: 40px;   
+    border-radius: 15px;
+    border: transparent;
+    box-shadow: 5px 5px rgb(201, 193, 193);
+    cursor: pointer;
+    color: rgb(12, 78, 21);
+    font-size: 30px;
+    
+}
+#calcular:hover{
+    transform: scale(1.1);
+	background:#77ec86
+}
+
+#limpiar{
+    background-color: rgb(202, 120, 120);
+    width: 100px;
+    height: 30px;
+    color: rgb(175, 25, 25);
+    font-size: 23px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 15px;
+    border: transparent;
+    box-shadow: 5px 5px rgb(168, 167, 167);
+}
+#limpiar:hover{
+    transform: scale(1.1);
+	background:#c95757 
+}
+
+#result{
+    color: rgb(69, 77, 5);
+    font-size: 23px;
+    font-weight: 800;
+}

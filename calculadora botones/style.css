@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(45deg, #1900ff, #ff00dd);
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.calculadora {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 74px 20px 74px 20px;
+    box-shadow: 0 0 30px rgb(187 130 130);
+    background-color: rgb(180, 184, 133);
+}
+#display {
+    color: #13116b;
+    margin: 0 10px;
+    height: 100px;
+    width: 273px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #a1b391;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(161, 90, 90);
+    overflow: hidden;
+    
+}
+
+#clear {
+    background-color: #d3ad75;
+    color: #ff4800;
+}
+#clear:hover {
+    transform: scale(1.1);
+	background:#868888
+}
+.btn-number {
+    background-color: rgb(124, 189, 194);
+    color: rgb(17, 0, 255);
+}
+.btn-number:hover {
+    transform: scale(1.1);
+    background:#f8606f
+}
+.btn-operator {
+    background-color: rgb(170, 93, 153);
+    color: #680452;
+    
+}
+.btn-operator:hover {
+    transform: scale(1.1);
+	background:#977c40
+}
+.btn-igual {
+    background-color: rgb(117, 189, 123);
+    color: rgb(18, 80, 16);
+    /*background-color: rgb(107, 104, 104);
+    color: #000;*/
+    height: 130px;
+}
+.btn-igual:hover {
+    transform: scale(1.1);
+	background:#999990
+}
+/*.theme-toggler {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: rgb(29, 136, 218);
+    cursor: pointer;
+    z-index: 1;
+}
+.theme-toggler::before{
+    content: '';
+    height: 30px;
+    width: 30px;
+    top: 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    background-color: #333;
+    z-index: -1;
+}
+.theme-toggler .active {
+    color: #000;
+}
+.theme-toggler .active::before {
+    background-color: rgb(255, 255, 255);
+}*/
+button {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-weight: 600;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 0 10px rgb(70, 88, 18);
+}
+/*button:hover {
+    transform: scale(1.1);
+   
+}
+
+
+

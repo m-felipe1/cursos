@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+#keyboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 684px;
+    gap: 5px;
+    margin: 100px auto;
+}
+.layer {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+}
+.key {
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.key-normal {
+    width: 50px;
+    height: 70px;
+}
+.key-mayus {
+    width: 120px;
+    height: 70px;
+}
+.key-shift {
+    width: 80px;
+    height: 70px;
+}
+.key-space {
+    width: 400px;
+    height: 70px;
+}
+.key-back {
+    width: 80px;
+    height: 60px;
+}
+.key:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+.key-empty {
+    width: 25px;
+    height: 70px;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.activated {
+    outline: greenyellow solid 2px;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    background-color: #222;
+    margin-top: 70px;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
